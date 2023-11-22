@@ -5,6 +5,7 @@ import java.util.List;
 public class HengerProgram {
 
     private List[] hengerek;
+    
     public static void main(String[] args) {
         new HengerProgram();
     }
@@ -12,6 +13,7 @@ public class HengerProgram {
     public HengerProgram(){
         atlagTerfogat();
         csovekSulya();
+        run();
     }
 
     public double atlagTerfogat() {
@@ -26,8 +28,8 @@ public class HengerProgram {
     }
     
     private List[] lista(){
-        List[] listam = new List[4];
-        return listam;
+        //List[] listam = new List[4];
+        return hengerek;
     }
     
     public void run(){
