@@ -17,7 +17,7 @@ public class HengerProgram {
     }
 
     public HengerProgram() {
-        hengerek = new List[4];
+
     }
 
     public double atlagTerfogat() {
@@ -32,6 +32,7 @@ public class HengerProgram {
     }
 
     private List[] lista() {
+        hengerek = new List[4];
         return hengerek;
     }
 
