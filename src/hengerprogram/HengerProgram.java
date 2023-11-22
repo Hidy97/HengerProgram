@@ -4,16 +4,20 @@ import java.util.List;
 
 public class HengerProgram {
 
-    private List[] hengerek = new List[4];;
-    
+    private List[] hengerek;
+
     public static void main(String[] args) {
-        new HengerProgram();
+        HengerProgram hp = new HengerProgram();
+        hp.run();
     }
-    
-    public HengerProgram(){
+
+    public void run() {
         atlagTerfogat();
         csovekSulya();
-        run();
+    }
+
+    public HengerProgram() {
+        hengerek = new List[4];
     }
 
     public double atlagTerfogat() {
@@ -23,15 +27,12 @@ public class HengerProgram {
 
     public double csovekSulya() {
         //Összes cső(!) súlya
-        
+
         return 0;
     }
-    
-    private List[] lista(){
+
+    private List[] lista() {
         return hengerek;
     }
-    
-    public void run(){
-        
-    }
+
 }
