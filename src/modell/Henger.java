@@ -5,7 +5,7 @@ package modell;
  * @author CsaládiAlexandra(SZF
  */
 public class Henger {
-    private int hengerDarab;
+    private static int hengerDarab;
     private double sugar, magassag;
 
     public Henger(double sugar, double magassag) {
@@ -13,7 +13,7 @@ public class Henger {
         this.magassag = magassag;
     }
 
-    public int getHengerDarab() {
+    public static int getHengerDarab() {
         return hengerDarab;
     }
 
