@@ -4,7 +4,7 @@ import java.util.List;
 
 public class HengerProgram {
 
-    private List[] hengerek;
+    private List[] hengerek = new List[4];;
     
     public static void main(String[] args) {
         new HengerProgram();
@@ -28,7 +28,6 @@ public class HengerProgram {
     }
     
     private List[] lista(){
-        //List[] listam = new List[4];
         return hengerek;
     }
     
